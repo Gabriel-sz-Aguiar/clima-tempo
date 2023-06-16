@@ -1,4 +1,4 @@
-const KEY = '17cc76b61de247da9e5194300231506 ';
+const KEY = '17cc76b61de247da9e5194300231506';
 
 const fetchData = async (city) => {
   const url = `http://api.weatherapi.com/v1/current.json?key=${KEY}&q=${city}&aqi=no`;

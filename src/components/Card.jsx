@@ -1,3 +1,6 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable linebreak-style */
 import React from 'react';
 import propTypes from 'prop-types';
 
@@ -21,7 +24,8 @@ function Card({ data }) {
       </div>
 
       <div className="flex justify-center flex-col items-center">
-        <img src={current.condition.icon}></img>
+
+        <img src={current.condition.icon} />
         <span className="text-slate-700 font-medium">
           {current.condition.text}
         </span>
