@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable quotes */
 const initialData = {
   location: {
     name: "-",
